@@ -1,0 +1,81 @@
+/* TrNavbar.css */
+
+/* Style for the entire navigation bar container */
+.container {
+    padding: 10px 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+  }
+  
+  /* Style for the navigation bar */
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the logo image */
+  .nav-logo {
+    margin-right: 20px;
+  }
+  
+  /* Style for the navigation menu items */
+  .nav-options {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+    justify-content: center;
+    color: white;
+    
+  }
+  
+  /* Style for the user section */
+  .user-style {
+    margin-right: 15px;
+  }
+ .btn-btn-primary{
+    margin-left: auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+ .btn-btn-primary:hover{
+    background-color: #0056b3;
+
+ }
+
+  
+  /* Media query for mobile responsiveness */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-options {
+      margin-top: 15px;
+    }
+  
+    .nav-item {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .user-style {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  

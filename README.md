@@ -7,5 +7,3 @@ React, Firebase, JavaScript, React-Router, Bootstrap, HTML, CSS
 ### Instalation Guide
 npx create-react-app trasport-rex
 
-## Live Site Link
-https://transport-rex.web.app/
