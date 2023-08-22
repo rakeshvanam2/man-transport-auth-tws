@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useParams } from 'react-router';
 import './Destination.css';
 import Data from '../Data/Data.json';
-import Map from '../Map/Map';
 
 const Destination = () => {
     const { id } = useParams();
