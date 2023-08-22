@@ -25,10 +25,10 @@ const TrNavbar = ( props ) => {
                                 <Link className="nav-link" to="/destination/1">Destination</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">Blog</Link>
+                                <Link className="nav-link" >Blog</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contact</a>
+                                <a className="nav-link" >Contact</a>
                             </li>
                             {
                                 email ? <li className='nav-item'>
