@@ -94,7 +94,7 @@ const Destination = () => {
                     }
                 </div>
                 <div className="col-8">
-                    <Map></Map>
+                 
                 </div>
             </div>
         </div>
