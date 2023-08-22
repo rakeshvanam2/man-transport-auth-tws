@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './TrNavbar.css';
 
 const TrNavbar = ( props ) => {
-    const {name, email} = props.logUser;
+    const { name,email} = props.logUser;
     return (
         <div className='container'>
             <nav className="navbar navbar-expand-lg navbar-light">

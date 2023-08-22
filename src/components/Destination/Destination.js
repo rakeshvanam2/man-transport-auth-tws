@@ -9,17 +9,14 @@ const Destination = () => {
     const [from, setFrom] = useState();
     const [destination, setDestination] = useState();
     const [transport, setTransport] = useState();
-
     const [state, setState] = useState(false);
+
     const handleSearch = () => {
         setState(true);
-        Data.map(data => {
-            const id1 = parseInt(data.id);
-            const id2 = parseInt(id);
-            if (id1 === id2) {
-                setTransport(data);
-            }
-        });
+        const foundTransport = Data.find(data => parseInt(data.id) === parseInt(id));
+        if (foundTransport) {
+            setTransport(foundTransport);
+        }
     }
 
     const handleFromBlur = (event) => {
