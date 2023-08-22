@@ -30,6 +30,7 @@ const AccountAuth = () => {
   const { from } = location.state || { from: { pathname: "/" } };
 
   const googleProvider = new firebase.auth.GoogleAuthProvider();
+  console.log(loggedInUser);
 
   const handleSignIn = () => {
     firebase.auth().signInWithPopup(googleProvider)
